@@ -42,7 +42,6 @@ const POSTS = [
     date: "2026-08-01",
     image: "images/example.jpg",
     excerpt: "A pass on the ship hull material — better parallax, less banding, and a metalness map that finally reads right under the hangar lights.",
-    content: "We rebuilt the hull plating shader from the ground up this week. The old version leaned on a single tiling normal map, and under the hangar's cool lighting rig it produced visible banding across large panels.\n\nThe new version blends two normal maps at different scales and drives roughness from a hand-painted mask, so battle damage and weathering read as physical detail instead of a texture smear. Parallax occlusion mapping was added to the rivet lines, which sounds subtle but makes a huge difference at close range.\n\nNext up: getting the same treatment onto the smaller prop set before the vertical slice."
-  cept team's pet project for a while, and it's finally far enough along to show. The biome leans hard into verticality: overgrown scaffolding, bioluminescent flora that reacts to player movement, and a new grapple-and-swing traversal layer that changes how combat encounters can be designed.\n\nWe're not ready to commit to a date, but wanted to share where the art direction is heading. More soon."
-}
+    content: "stuff"
+  }
    ];
