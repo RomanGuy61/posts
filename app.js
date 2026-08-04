@@ -196,12 +196,14 @@
     lastFocused = document.activeElement;
     renderOverlay();
     overlay.hidden = false;
+    overlay.style.display = "flex";
     document.body.style.overflow = "hidden";
     overlayClose.focus();
   }
 
   function closeOverlay() {
     overlay.hidden = true;
+    overlay.style.display = "none";
     document.body.style.overflow = "";
     if (lastFocused) lastFocused.focus();
   }
