@@ -36,12 +36,12 @@ const SITE_CONFIG = {
 
 const POSTS = [
   {
-    id: "hull-plating-pass-2026-08-01",
-    tag: "DEVLOG",
-    title: "Repainting the hull plating shader",
-    date: "2026-08-01",
-    image: "images/example.jpg",
-    excerpt: "A pass on the ship hull material — better parallax, less banding, and a metalness map that finally reads right under the hangar lights.",
-    content: "stuff"
+    id: "aug-statue-2026-08-04",
+    tag: "TEASER",
+    title: "August 2026 Status Update",
+    date: "2026-08-04",
+    image: "images/Aug2026.png",
+    excerpt: "Talking about some of the stuff coming soon...",
+    content: "I have a screenshot here showing just a bit of whats coming to V0.5. There is so much more coming but I can't put too much here.\n\nI am stopping development for V0.4C because I have added way to much while working. There is a title screen rework (Better than the one from 0.3A). There is a ton of optimization too. The old versions have TONS of assets that are now going to be unused because of how I have wanted the game to look. The full game will come out before 2029.\n\nH-slice. An H-slice is a 1.0 almost finished version. I am working on that so 1.0 will come faster and better. The features will be kinda done in the H-slice but not fully. That lets me have the features that I want, and make them better and possibly add mre faster.\n\nThe End of status update August 2026."
   }
    ];
