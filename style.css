@@ -479,6 +479,10 @@ a{ color: inherit; }
   overflow-y: auto;
 }
 
+.overlay[hidden]{
+  display: none;
+}
+
 .overlay-scrim{
   position: fixed;
   inset: 0;
