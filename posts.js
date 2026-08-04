@@ -38,7 +38,7 @@ const POSTS = [
   {
     id: "aug-statue-2026-08-04",
     tag: "TEASER",
-    title: "August 2026 Status Update",
+    title: "BGP+ August 2026 Status Update",
     date: "2026-08-04",
     image: "images/Aug2026.png",
     excerpt: "Talking about some of the stuff coming soon...",
