@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIGNAL — Dev Log</title>
+<meta name="description" content="Devlog, patch notes and release dispatches.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="topbar">
+  <a class="brand" href="#top">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-text" id="site-name">SIGNAL</span>
+  </a>
+  <nav class="topnav" aria-label="Primary">
+    <a href="#feed">Dispatches</a>
+    <a href="#about">About</a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-scanlines" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow" id="site-eyebrow">// INCOMING TRANSMISSION</p>
+    <h1 class="hero-title" id="site-title">SIGNAL</h1>
+    <p class="hero-tagline" id="site-tagline">Dev log, patch notes &amp; dispatches from the build.</p>
+    <div class="hero-meta">
+      <span id="post-count">0 entries logged</span>
+      <span class="dot" aria-hidden="true">·</span>
+      <span id="latest-date">—</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILTERS ============ -->
+<section class="filters" id="feed" aria-label="Filter dispatches by category">
+  <div class="filters-inner" id="filter-bar">
+    <!-- filter chips injected by app.js -->
+  </div>
+</section>
+
+<!-- ============ FEED ============ -->
+<main class="feed" id="post-grid" aria-live="polite">
+  <!-- post cards injected by app.js -->
+</main>
+
+<p class="empty-state" id="empty-state" hidden>
+  No dispatches match this channel yet. <button id="clear-filter" class="link-btn">Clear filter</button>
+</p>
+
+<!-- ============ ABOUT / FOOTER ============ -->
+<footer class="site-footer" id="about">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand" id="footer-name">SIGNAL</p>
+      <p class="footer-note">Broadcasting from the build. Add posts by editing <code>posts.js</code>.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://pages.github.com/" target="_blank" rel="noopener">Hosted on GitHub Pages</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ ENTRY OVERLAY ============ -->
+<div class="overlay" id="overlay" hidden>
+  <div class="overlay-scrim" id="overlay-scrim"></div>
+  <article class="overlay-panel" id="overlay-panel" role="dialog" aria-modal="true" aria-labelledby="overlay-title">
+    <button class="overlay-close" id="overlay-close" aria-label="Close dispatch">✕</button>
+    <div class="overlay-image-wrap">
+      <img class="overlay-image" id="overlay-image" alt="">
+    </div>
+    <div class="overlay-body">
+      <div class="overlay-meta">
+        <span class="tag-chip" id="overlay-tag">DEVLOG</span>
+        <span class="overlay-date" id="overlay-date">—</span>
+      </div>
+      <h2 class="overlay-title" id="overlay-title">Title</h2>
+      <div class="overlay-content" id="overlay-content"></div>
+      <div class="overlay-nav">
+        <button class="ghost-btn" id="overlay-prev">← Previous</button>
+        <button class="ghost-btn" id="overlay-next">Next →</button>
+      </div>
+    </div>
+  </article>
+</div>
+
+<script src="posts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
