@@ -47,10 +47,19 @@ const POSTS = [
    {
    id: "version-0-5",
    tag: "RELEASE",
-   title: "BGP+ V0.5 Release notes",
+   title: "BGP+ V0.5A Release notes",
    date: "2026-08-05",
    image: "images/0dot5.png",
    excerpt: "New BGP+ update on itch.io",
    content: "V0.5A, The first major update is finally here! This update brings a huge amount of new content, visual improvements, and quality-of-life changes.\n\nFirst, the old 2D scene has been completely removed and replaced with a brand-new 3D environment. Alongside the visual upgrade, I also made several optimizations to improve overall game performance.\n\nSecond, Customization is finally available! The customization button has been sitting there since V0.3A without doing anything, but it's now fully functional. The shop still isn't available yet, since there aren't enough items to actually purchase... for now.\n\nThird, there's a mysterious new locked door in the first main game area. The key hasn't been fully added yet because... someone stole it. (Take a look to your left next to Brimace.)\n\nFourth, the game has an entirely redesigned main menu. The title screen has received a complete overhaul with new animations, improved buttons, and updated artwork. It finally looks like a real game instead of a low-effort mobile game.\n\nFifth, Speedrunning support has been added! A new in-game timer tracks how long it takes you to complete the game, making it easy to challenge yourself or compete with friends.\n\nSixth, the UI has been fixed to properly scale with different screen resolutions. Previously, changing your resolution could make large parts of the interface disappear, but that's no longer an issue.\n\nThis is by far the biggest update yet, and it's only the beginning. Thanks for playing and supporting the game—there's plenty more content, secrets, and features coming in future updates. Have fun exploring V0.5A!"
+   },
+   {
+      id: "version-0-5b",
+      tag: "RELEASE",
+      title: "BGP+ V0.5B Release notes",
+      date: "2026-08-09",
+      image: "images/0dot5-2.png",
+      excerpt: "New BGP+ Update on itch.io",
+      content: "Another update... V0.5B!\n\nThis update ended up being a lot smaller and much quicker to make than I originally anticipated. But here we are! Even though this is only a letter advancement, there are still quite a few changes, fixes, and improvements packed into this update.\n\nHere's some of the new stuff:\n\n- Bug fixes (as always)\n- V-Sync actually works now\n- Added an Unlimited FPS option\n- Added social media buttons to the title screen\n- Splash screens can now be sped up\n- Various optimizations and performance improvements\n- No more hugging Grimace! The player's hands now render above everything properly\n- Fixed the horror scene being unused\n- Added the Terminal scene that should have been included in V0.5A\n- Added a new key icon when looking at the locked door\n- Added a credits screen. This was technically added in V0.5A, but I didn't mention it because there was no way to actually access it yet\n\nAnd that's everything that was added in V0.5B!\n\nHonestly, this update ended up feeling more like a medium-sized update than a small one, which I'm completely fine with. There's a decent amount of new stuff here despite it only being a letter advancement rather than a full version number increase.\n\nThank you for continuing to play the game and for sticking around through all of these updates. There's still plenty more planned, and development isn't slowing down anytime soon.\n\nKeep on playing, and I'll see you in V0.6A!\n\nV0.6A is already in the works..."
    }
-   ];
+      ];
