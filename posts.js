@@ -63,7 +63,7 @@ const POSTS = [
       content: "Another update... V0.5B!\n\nThis update ended up being a lot smaller and much quicker to make than I originally anticipated. But here we are! Even though this is only a letter advancement, there are still quite a few changes, fixes, and improvements packed into this update.\n\nHere's some of the new stuff:\n\n- Bug fixes (as always)\n- V-Sync actually works now\n- Added an Unlimited FPS option\n- Added social media buttons to the title screen\n- Splash screens can now be sped up\n- Various optimizations and performance improvements\n- No more hugging Grimace! The player's hands now render above everything properly\n- Fixed the horror scene being unused\n- Added the Terminal scene that should have been included in V0.5A\n- Added a new key icon when looking at the locked door\n- Added a credits screen. This was technically added in V0.5A, but I didn't mention it because there was no way to actually access it yet\n\nAnd that's everything that was added in V0.5B!\n\nHonestly, this update ended up feeling more like a medium-sized update than a small one, which I'm completely fine with. There's a decent amount of new stuff here despite it only being a letter advancement rather than a full version number increase.\n\nThank you for continuing to play the game and for sticking around through all of these updates. There's still plenty more planned, and development isn't slowing down anytime soon.\n\nKeep on playing, and I'll see you in V0.6A!\n\nV0.6A is already in the works..."
    },
    {
-      id: "sept-status".
+      id: "sept-status",
       tag: "TEASER",
       title: "September 2026 Status Update",
       date: "2026-09-09",
