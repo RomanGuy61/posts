@@ -77,7 +77,7 @@ const POSTS = [
       title: "October 2026 Status Update",
       date: "2026-10-03",
       image: "images/OctStat.png",
-      excerpt: "Why have I not announcec anything?",
+      excerpt: "Why have I not announced anything?",
       content: "October is here, the month of BGP+. On the 18th is the 1 year anniversary, which has a special song being published that won't be added in-game. Anyway, here's what's been happening with the game: \n\n I haven't been working on it very much because I switched away from Bazzite and went to regular Fedora. I have also tried building to Android, but that still doesn't work. \n\n The basement is still in the planning phase, so there hasn't been anything added to it yet. I still don't know exactly what I'm going to do with it, but I have some ideas that aren't fully finished yet: a platforming section, a new way to fight Rom replacing the old one, and something special referencing the dev (me). \n\n I have also been trying to push the game to GitHub so that I can use a special Android app to build it for mobile. The problem with that is my Wi-Fi. I don't have any actual home internet, so I have to use my phone's hotspot, and the upload speeds aren't very good. \n\n Another problem is the fact that the main room that I develop the game(s) in has 0 power, so I can't plug in my laptop while working in there. \n\n There have also been more themes for the game that I'm working on. \n\n The school map that I teased somewhere in V0.5 is being removed. I decided there was no point in keeping it.",
    }
       ];
